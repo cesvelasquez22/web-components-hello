@@ -1,5 +1,5 @@
 import { html, css, LitElement } from 'lit';
-// const pjson = require('../package.json');
+const pjson = require('../package.json');
 
 export default class WcHello extends LitElement {
   static get styles() {

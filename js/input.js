@@ -1,5 +1,5 @@
 import { html, LitElement } from "lit";
-// const pjson = require('../package.json');
+const pjson = require('../package.json');
 
 export default class Input extends LitElement {
   static get properties() {
