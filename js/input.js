@@ -1,5 +1,4 @@
 import { html, LitElement } from "lit";
-const pjson = require('../package.json');
 
 export default class Input extends LitElement {
   static get properties() {
@@ -11,7 +10,6 @@ export default class Input extends LitElement {
   }
   render() {
     return html`
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@${pjson.version}/dist/yalo.min.css" /> -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@1.3.0/dist/yalo.min.css" />
       <div class="yc-input">
           <input
