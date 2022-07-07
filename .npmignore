@@ -2,3 +2,6 @@
 /demo/
 webpack.config.js
 web-dev-server.config.mjs
+custom-elements.json
+/.vscode/
+.editorconfig

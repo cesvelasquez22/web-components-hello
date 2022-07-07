@@ -6,7 +6,7 @@ module.exports = {
   entry: ["./js/input.js", "./js/wc-hello.js", "./css/main.css"],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "yalo.bundle.js",
+    filename: "yalo.min.js",
     clean: true,
   },
   module: {
