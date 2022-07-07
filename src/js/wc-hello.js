@@ -36,5 +36,4 @@ export default class WcHello extends LitElement {
   }
 }
 
-
 window.customElements.define('wc-hello', WcHello);

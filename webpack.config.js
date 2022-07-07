@@ -1,12 +1,10 @@
 const path = require("path");
 
 module.exports = {
-  entry: {
-    index: "./src/index.js",
-  },
+  entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].js",
-    publicPath: "/dist/",
-  }
+    filename: "index.min.js",
+    clean: true,
+  },
 };

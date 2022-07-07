@@ -7,8 +7,9 @@
   "main": "src/index.js",
   "module": "src/index.js",
   "exports": {
-    ".": "./dist/src/index.js",
-    "./yalo-hello.js": "./dist/src/js/wc-hello.js"
+    ".": "./src/index.js",
+    "./wc-hello": "./src/js/wc-hello.js",
+    "./input": "./src/js/input.js"
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
