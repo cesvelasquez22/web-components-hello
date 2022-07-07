@@ -1,4 +1,5 @@
 import { html, css, LitElement } from 'lit';
+// const pjson = require('../package.json');
 
 export default class WcHello extends LitElement {
   static get styles() {
@@ -30,7 +31,8 @@ export default class WcHello extends LitElement {
 
   render() {
     return html`
-      <link rel="stylesheet" href="../css/main.css" />
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@${pjson.version}/dist/yalo.min.css" /> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@1.3.0/dist/yalo.min.css" />
       <h2>${this.title} Nr. ${this.counter}!</h2>
       <button class="yc-btn yc-btn-primary" @click=${this.__increment}>increment</button>
     `;
