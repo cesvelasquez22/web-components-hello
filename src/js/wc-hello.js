@@ -1,6 +1,6 @@
 import { html, css, LitElement } from 'lit';
 
-export class WcHello extends LitElement {
+export default class WcHello extends LitElement {
   static get styles() {
     return css`
       :host {
@@ -35,3 +35,6 @@ export class WcHello extends LitElement {
     `;
   }
 }
+
+
+window.customElements.define('wc-hello', WcHello);
