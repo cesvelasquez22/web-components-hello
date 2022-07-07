@@ -1,0 +1,21 @@
+{
+  "name": "wc-hello",
+  "description": "Webcomponent wc-hello following open-wc recommendations",
+  "license": "MIT",
+  "author": "wc-hello",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.28"
+  },
+  "customElements": "custom-elements.json"
+}
