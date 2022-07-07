@@ -30,8 +30,9 @@ export default class WcHello extends LitElement {
 
   render() {
     return html`
+      <link rel="stylesheet" href="../css/main.css" />
       <h2>${this.title} Nr. ${this.counter}!</h2>
-      <button @click=${this.__increment}>increment</button>
+      <button class="yc-btn yc-btn-primary" @click=${this.__increment}>increment</button>
     `;
   }
 }

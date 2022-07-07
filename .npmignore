@@ -1,0 +1,4 @@
+# Files to ignore to publish
+/demo/
+webpack.config.js
+web-dev-server.config.mjs
