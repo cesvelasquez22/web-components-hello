@@ -1,3 +1,3 @@
-import { WcHello } from './src/WcHello.js';
+import { WcHello } from './js/WcHello.js';
 
 window.customElements.define('wc-hello', WcHello);

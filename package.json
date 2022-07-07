@@ -6,6 +6,10 @@
   "version": "0.0.0",
   "main": "src/index.js",
   "module": "src/index.js",
+  "exports": {
+    ".": "./dist/src/index.js",
+    "./yalo-hello.js": "./dist/src/wc-hello.js"
+  },
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server"
