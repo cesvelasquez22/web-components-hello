@@ -3,7 +3,7 @@
   "description": "Webcomponent wc-hello following open-wc recommendations",
   "license": "MIT",
   "author": "wc-hello",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "main": "dist/yalo.min.js",
   "module": "dist/yalo.min.js",
   "exports": {
