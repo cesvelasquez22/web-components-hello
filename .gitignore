@@ -17,7 +17,7 @@
 
 # build
 /_site/
-/dist/
+*.LICENSE.txt
 /out-tsc/
 
 storybook-static
