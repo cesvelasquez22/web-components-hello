@@ -3,7 +3,7 @@
   "description": "Webcomponent wc-hello following open-wc recommendations",
   "license": "MIT",
   "author": "wc-hello",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "src/index.js",
   "module": "src/index.js",
   "exports": {
