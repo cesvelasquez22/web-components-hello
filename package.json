@@ -3,7 +3,7 @@
   "description": "Webcomponent wc-hello following open-wc recommendations",
   "license": "MIT",
   "author": "wc-hello",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "main": "dist/yalo.bundle.js",
   "module": "dist/yalo.bundle.js",
   "exports": {
