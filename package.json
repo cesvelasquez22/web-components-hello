@@ -4,10 +4,10 @@
   "license": "MIT",
   "author": "wc-hello",
   "version": "1.4.3",
-  "main": "dist/yalo.min.js",
-  "module": "dist/yalo.min.js",
+  "main": "dist/yalo.bundle.js",
+  "module": "dist/yalo.bundle.js",
   "exports": {
-    ".": "./dist/yalo.min.js",
+    ".": "./dist/yalo.bundle.js",
     "./wc-hello": "./src/js/wc-hello.js",
     "./input": "./src/js/input.js"
   },
