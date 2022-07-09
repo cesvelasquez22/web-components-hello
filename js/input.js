@@ -1,40 +1,27 @@
 import { html, LitElement } from "lit";
+import { inputStyles } from "./input.styles.js";
 
 export class Input extends LitElement {
+  static styles = [inputStyles];
+
   static get properties() {
     return {
       type: { type: String },
       placeholder: { type: String },
-      controlName: { type: String },
+      id: { type: String },
     };
   }
   render() {
     return html`
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@1.3.0/dist/yalo.min.css" />
-      <div class="yc-input">
-          <input
-            type=${this.type}
-            id=${this.controlName}
-            placeholder=${this.placeholder}
-            controlName=${this.controlName}
-            @input=${this._inputChange}
-          />
-          <label for=${this.controlName}>${this.placeholder}</label>
-      </div>
+      <!-- <div class="yc-input"> -->
+        <input type=${this.type} id=${this.id} placeholder=${this.placeholder} autocomplete="off" @input=${this._inputChange} />
+        <label for=${this.id}>${this.placeholder}</label>
+      <!-- </div> -->
     `;
   }
 
-  _inputChange(event) {
-    const value = event.target.value.trim();
-    if (value) {
-      this.dispatchEvent(
-        new CustomEvent("onInputChange", {
-          detail: { controlName: this.controlName, value },
-          bubbles: true,
-          composed: true,
-        })
-      );
-    }
+  _inputChange(e) {
+    console.log(inputStyles.styleSheet);
   }
 }
 

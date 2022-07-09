@@ -1,16 +1,16 @@
 @import '../lufga/lufga.css';
 /* Colores */
 :root {
-  --white: #fff;
-  --blue300: #52bae1;
-  --blue500: #00a0da;
+  --white: #ffffff;
+  --blue-300: #52bae1;
+  --blue-500: #00a0da;
   --blue800: #006fa6;
   --blueDark600: #42677e;
   --blueDark900: #142c3b;
   --gray200: #e2e2e2;
-  --gray400: #808080;
+  --gray-400: #808080;
   --gray600: #545454;
-  --gray900: #141414;
+  --gray-900: #141414;
   --error: #ff4a4a;
 
   --yc-font: Lufga;
@@ -26,7 +26,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: var(--yc-body-font-family);
 }
 
 @media (prefers-reduced-motion: no-preference) {
