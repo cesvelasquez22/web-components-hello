@@ -107,7 +107,7 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
 var __webpack_exports__ = {};
-/* unused harmony export default */
+/* unused harmony export Input */
 /* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(897);
 
 
@@ -156,7 +156,7 @@ window.customElements.define("wc-input", Input);
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 (() => {
 var __webpack_exports__ = {};
-/* unused harmony export default */
+/* unused harmony export WcHello */
 /* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(897);
 
 
@@ -166,7 +166,7 @@ class WcHello extends lit__WEBPACK_IMPORTED_MODULE_0__/* .LitElement */ .oi {
       :host {
         display: block;
         padding: 25px;
-        color: var(--wc-hello-text-color, #000);
+        color: var(--yc-body-color, #000);
       }
     `;
   }

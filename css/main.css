@@ -26,6 +26,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: var(--yc-body-font-family);
 }
 
 @media (prefers-reduced-motion: no-preference) {

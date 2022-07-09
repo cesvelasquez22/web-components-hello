@@ -1,6 +1,6 @@
 import { html, LitElement } from "lit";
 
-export default class Input extends LitElement {
+export class Input extends LitElement {
   static get properties() {
     return {
       type: { type: String },

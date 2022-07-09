@@ -1,12 +1,12 @@
 import { html, css, LitElement } from 'lit';
 
-export default class WcHello extends LitElement {
+export class WcHello extends LitElement {
   static get styles() {
     return css`
       :host {
         display: block;
         padding: 25px;
-        color: var(--wc-hello-text-color, #000);
+        color: var(--yc-body-color, #000);
       }
     `;
   }

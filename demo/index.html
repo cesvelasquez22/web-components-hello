@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8" />
   </head>
-  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../dist/yalo.min.css" />
   <body>
     <wc-hello title="Hello owc ggg"> some light-dom </wc-hello>
-
     <wc-input type="text" placeholder="Escriba aquí"></wc-input>
+
     <script src="../dist/yalo.bundle.js"></script>
+
+    <!-- for test components in development mode -->
+    <!-- <div id="demo"></div>
+    <script type="module">
+      import { render, html } from  'lit';
+      import '../js/wc-hello.js'
+      import '../js/input.js'
+
+      const title = 'Hello World! ggg';
+      render(
+        html`
+            <wc-hello .title=${title}> some light-dom </wc-hello>
+            <wc-input type="text" placeholder="Escriba aquí"></wc-input>
+          `,
+          document.querySelector('#demo')
+      );
+    </script> -->
   </body>
 </html>
