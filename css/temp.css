@@ -1,0 +1,145 @@
+/* Textos Headline */
+
+.headline-xxl {
+  font-family: Medium;
+  font-size: 56px;
+  letter-spacing: 0px;
+}
+
+.headline-xl {
+  font-family: Medium;
+  font-size: 48px;
+  letter-spacing: 0px;
+}
+
+.headline-large {
+  font-family: Medium;
+  font-size: 36px;
+  letter-spacing: 0px;
+}
+
+.headline-medium {
+  font-family: Medium;
+  font-size: 24px;
+  letter-spacing: 0px;
+}
+
+.headline-small {
+  font-family: Medium;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.headline-x-small {
+  font-family: Medium;
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+
+/* Textos Subtitle */
+
+.subtitle-large {
+  font-family: Bold;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle-medium {
+  font-family: Bold;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle-small {
+  font-family: Bold;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+/* Textos Overline */
+
+.overline-small {
+  font-family: Bold;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+/* Textos Overline */
+
+.overline-small {
+  font-family: Bold;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+/* Textos Body */
+
+.body-large {
+  font-family: Regular;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.body-medium {
+  font-family: Regular;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+.body-small {
+  font-family: Regular;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.body-x-small {
+  font-family: Regular;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+/* Textos Button */
+
+.button-bold {
+  font-family: Bold;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.button-medium {
+  font-family: Medium;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+/* Textos Body Link */
+
+.bodylink-large {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.bodylink-medium {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.bodylink-small {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.bodylink-x-small {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}

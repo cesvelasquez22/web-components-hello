@@ -1,0 +1,143 @@
+.yc-input {
+  margin: 8px;
+  position: relative;
+  display: flex;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.yc-input > input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: var(--gray900);
+  background: transparent;
+  transition: 0.5s;
+  border: 1px solid var(--gray400);
+  border-radius: 70px;
+  padding: 14px 24px;
+}
+
+.yc-input > input:hover {
+  border: 1px solid var(--gray900);
+}
+
+.yc-input > input:focus {
+  border: 1px solid var(--blue500);
+}
+
+.yc-input > input::placeholder {
+  color: transparent;
+}
+
+.yc-input > input:placeholder-shown ~ label {
+  cursor: text;
+  top: 13px;
+}
+
+.yc-input > label {
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  display: block;
+  transition: 0.2s;
+  color: var(--gray600);
+  background-color: var(--white);
+  padding: 0px 5px;
+}
+
+.yc-input > input:focus ~ label {
+  position: absolute;
+  top: -10px;
+  display: block;
+  color: var(--blue500);
+}
+
+.yc-input > input:required,
+.yc-input > input:invalid {
+  color: red;
+}
+
+.yc-error {
+  color: var(--error);
+  margin: 0px 32px;
+}
+
+.yc-input-error {
+  border: 1px solid var(--error) !important;
+}
+
+.yc-label-error {
+  color: var(--error) !important;
+}
+
+.yc-textarea {
+  margin: 8px;
+  position: relative;
+  display: flex;
+  background-color: var(--white);
+  transition: 0.5s;
+}
+
+.yc-textarea > textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: var(--gray900);
+  background: transparent;
+  transition: 0.5s;
+  border: 1px solid var(--gray400);
+  border-radius: 24px;
+  padding: 14px 24px;
+  resize: none;
+}
+
+.yc-textarea > textarea:hover {
+  border: 1px solid var(--gray900);
+}
+
+.yc-textarea > textarea:focus {
+  border: 1px solid var(--blue500);
+}
+
+.yc-textarea > textarea::placeholder {
+  color: transparent;
+}
+
+.yc-textarea > textarea:placeholder-shown ~ label {
+  cursor: text;
+  top: 13px;
+}
+
+.yc-textarea > label {
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  display: block;
+  transition: 0.2s;
+  color: var(--gray600);
+  background-color: var(--white);
+  padding: 0px 5px;
+}
+
+.yc-textarea > textarea:focus ~ label {
+  position: absolute;
+  top: -10px;
+  display: block;
+  color: var(--blue500);
+}
+
+.yc-textarea-info {
+  margin: 0px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yc-textarea-info > p {
+  color: var(--error);
+  margin: 0px 32px;
+}
+
+.yc-textarea-info > span {
+  color: var(--gray400);
+}

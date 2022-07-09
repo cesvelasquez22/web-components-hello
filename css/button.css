@@ -1,0 +1,101 @@
+/* Botones */
+
+.yc-btn {
+  border: none;
+  padding: 16px 32px;
+  border-radius: 70px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  outline: none;
+  margin: 5px;
+}
+
+/* Boton Primario */
+
+.yc-btn-primary {
+  background-color: var(--blue500);
+  color: var(--white);
+}
+
+.yc-btn-primary:hover {
+  background-color: #00a0da;
+}
+
+.yc-btn-primary:disabled {
+  background-color: var(--gray200);
+}
+
+/* Boton Secundario */
+
+.yc-btn-secondary {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px 1px var(--blue300);
+  color: var(--blue300);
+}
+
+.yc-btn-secondary:hover {
+  background-color: var(--blue300);
+  color: var(--white);
+}
+
+.yc-btn-secondary:disabled {
+  background-color: transparent;
+  color: var(--gray200);
+  box-shadow: 0px 0px 0px 1px var(--gray200);
+}
+
+/* Boton Terceario */
+
+.yc-btn-tertiary {
+  background-color: var(--white);
+  color: var(--blue300);
+}
+
+.yc-btn-tertiary:hover {
+  background-color: var(--blue300);
+  color: var(--white);
+}
+
+.yc-btn-tertiary:disabled {
+  background-color: var(--gray200);
+  color: var(--white);
+}
+
+/* Boton Icono */
+
+.yc-btn-icon {
+  background-color: var(--white);
+  color: var(--blue300);
+  padding: 16px;
+}
+
+.yc-btn-icon:hover {
+  background-color: var(--blue300);
+  color: var(--white);
+  padding: 16px;
+}
+
+/* Botones Estilos Generales */
+
+.yc-btn-primary:focus,
+.yc-btn-secondary:focus,
+.yc-btn-tertiary:focus,
+.yc-btn-icon:focus {
+  /*border: 4px solid #e3f6ff;*/
+  background-color: var(--blue300);
+  box-shadow: 0px 0px 0px 4px #e3f6ff;
+  color: var(--white);
+}
+
+.yc-btn-primary:active,
+.yc-btn-secondary:active,
+.yc-btn-tertiary:active,
+.yc-btn-icon:active {
+  background-color: var(--blue800) !important;
+  color: var(--white);
+  box-shadow: none;
+}
