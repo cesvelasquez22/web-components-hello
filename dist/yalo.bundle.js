@@ -1,19 +1,10 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+(() => {
 
-/***/ 897:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "oi": () => (/* reexport */ lit_element_s),
-  "iv": () => (/* reexport */ r),
-  "dy": () => (/* reexport */ $)
-});
-
-// UNUSED EXPORTS: CSSResult, ReactiveElement, UpdatingElement, _$LE, _$LH, adoptStyles, defaultConverter, getCompatibleStyle, noChange, notEqual, nothing, render, supportsAdoptingStyleSheets, svg, unsafeCSS
+// UNUSED EXPORTS: MotionCarousel
 
 ;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/css-tag.js
 /**
@@ -55,149 +46,253 @@ var lit_html_t;const lit_html_i=globalThis.trustedTypes,lit_html_s=lit_html_i?li
 
 //# sourceMappingURL=index.js.map
 
+;// CONCATENATED MODULE: ./node_modules/lit/html.js
 
-/***/ })
+//# sourceMappingURL=html.js.map
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
-(() => {
-var __webpack_exports__ = {};
-/* unused harmony export Input */
-/* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(897);
+;// CONCATENATED MODULE: ./node_modules/lit-html/directive.js
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+const directive_t={ATTRIBUTE:1,CHILD:2,PROPERTY:3,BOOLEAN_ATTRIBUTE:4,EVENT:5,ELEMENT:6},directive_e=t=>(...e)=>({_$litDirective$:t,values:e});class directive_i{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,e,i){this._$Ct=t,this._$AM=e,this._$Ci=i}_$AS(t,e){return this.update(t,e)}update(t,e){return this.render(...e)}}
+//# sourceMappingURL=directive.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit/directive.js
+
+//# sourceMappingURL=directive.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit-html/directive-helpers.js
+
+/**
+ * @license
+ * Copyright 2020 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */const{H:directive_helpers_i}=R,directive_helpers_t=o=>null===o||"object"!=typeof o&&"function"!=typeof o,directive_helpers_n={HTML:1,SVG:2},directive_helpers_v=(o,i)=>{var t,n;return void 0===i?void 0!==(null===(t=o)||void 0===t?void 0:t._$litType$):(null===(n=o)||void 0===n?void 0:n._$litType$)===i},directive_helpers_l=o=>{var i;return void 0!==(null===(i=o)||void 0===i?void 0:i._$litDirective$)},directive_helpers_d=o=>{var i;return null===(i=o)||void 0===i?void 0:i._$litDirective$},directive_helpers_r=o=>void 0===o.strings,directive_helpers_e=()=>document.createComment(""),directive_helpers_u=(o,t,n)=>{var v;const l=o._$AA.parentNode,d=void 0===t?o._$AB:t._$AA;if(void 0===n){const t=l.insertBefore(directive_helpers_e(),d),v=l.insertBefore(directive_helpers_e(),d);n=new directive_helpers_i(t,v,o,o.options)}else{const i=n._$AB.nextSibling,t=n._$AM,r=t!==o;if(r){let i;null===(v=n._$AQ)||void 0===v||v.call(n,o),n._$AM=o,void 0!==n._$AP&&(i=o._$AU)!==t._$AU&&n._$AP(i)}if(i!==d||r){let o=n._$AA;for(;o!==i;){const i=o.nextSibling;l.insertBefore(o,d),o=i}}}return n},directive_helpers_c=(o,i,t=o)=>(o._$AI(i,t),o),directive_helpers_f={},directive_helpers_s=(o,i=directive_helpers_f)=>o._$AH=i,directive_helpers_a=o=>o._$AH,directive_helpers_m=o=>{var i;null===(i=o._$AP)||void 0===i||i.call(o,!1,!0);let t=o._$AA;const n=o._$AB.nextSibling;for(;t!==n;){const o=t.nextSibling;t.remove(),t=o}},directive_helpers_p=o=>{o._$AR()};
+//# sourceMappingURL=directive-helpers.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit-html/async-directive.js
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */const async_directive_e=(i,t)=>{var s,o;const n=i._$AN;if(void 0===n)return!1;for(const i of n)null===(o=(s=i)._$AO)||void 0===o||o.call(s,t,!1),async_directive_e(i,t);return!0},async_directive_o=i=>{let t,s;do{if(void 0===(t=i._$AM))break;s=t._$AN,s.delete(i),i=t}while(0===(null==s?void 0:s.size))},async_directive_n=i=>{for(let t;t=i._$AM;i=t){let s=t._$AN;if(void 0===s)t._$AN=s=new Set;else if(s.has(i))break;s.add(i),async_directive_l(t)}};function async_directive_r(i){void 0!==this._$AN?(async_directive_o(this),this._$AM=i,async_directive_n(this)):this._$AM=i}function async_directive_h(i,t=!1,s=0){const n=this._$AH,r=this._$AN;if(void 0!==r&&0!==r.size)if(t)if(Array.isArray(n))for(let i=s;i<n.length;i++)async_directive_e(n[i],!1),async_directive_o(n[i]);else null!=n&&(async_directive_e(n,!1),async_directive_o(n));else async_directive_e(this,i)}const async_directive_l=i=>{var t,e,o,n;i.type==directive_t.CHILD&&(null!==(t=(o=i)._$AP)&&void 0!==t||(o._$AP=async_directive_h),null!==(e=(n=i)._$AQ)&&void 0!==e||(n._$AQ=async_directive_r))};class async_directive_d extends directive_i{constructor(){super(...arguments),this._$AN=void 0}_$AT(i,t,s){super._$AT(i,t,s),async_directive_n(this),this.isConnected=i._$AU}_$AO(i,t=!0){var s,n;i!==this.isConnected&&(this.isConnected=i,i?null===(s=this.reconnected)||void 0===s||s.call(this):null===(n=this.disconnected)||void 0===n||n.call(this)),t&&(async_directive_e(this,i),async_directive_o(this))}setValue(t){if(directive_helpers_r(this._$Ct))this._$Ct._$AI(t,this);else{const i=[...this._$Ct._$AH];i[this._$Ci]=t,this._$Ct._$AI(i,this,0)}}disconnected(){}reconnected(){}}
+//# sourceMappingURL=async-directive.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit/async-directive.js
+
+//# sourceMappingURL=async-directive.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit-labs/motion/animate-controller.js
+const animate_controller_i=new WeakMap;class animate_controller_t{constructor(t,s){this.startPaused=!1,this.disabled=!1,this.clients=new Set,this.pendingComplete=!1,this.host=t,this.defaultOptions=s.defaultOptions||{},this.startPaused=!!s.startPaused,this.disabled=!!s.disabled,this.onComplete=s.onComplete,animate_controller_i.set(this.host,this)}async add(i){var t,s;this.clients.add(i),this.startPaused&&(null===(t=i.webAnimation)||void 0===t||t.pause()),this.pendingComplete=!0,await i.finished,this.pendingComplete&&!this.isAnimating&&(this.pendingComplete=!1,null===(s=this.onComplete)||void 0===s||s.call(this))}remove(i){this.clients.delete(i)}pause(){this.clients.forEach((i=>{var t;return null===(t=i.webAnimation)||void 0===t?void 0:t.pause()}))}play(){this.clients.forEach((i=>{var t;return null===(t=i.webAnimation)||void 0===t?void 0:t.play()}))}cancel(){this.clients.forEach((i=>{var t;return null===(t=i.webAnimation)||void 0===t?void 0:t.cancel()})),this.clients.clear()}finish(){this.clients.forEach((i=>{var t;return null===(t=i.webAnimation)||void 0===t?void 0:t.finish()})),this.clients.clear()}togglePlay(){this.isPlaying?this.pause():this.play()}get isAnimating(){return this.clients.size>0}get isPlaying(){return Array.from(this.clients).some((i=>{var t;return"running"===(null===(t=i.webAnimation)||void 0===t?void 0:t.playState)}))}async finished(){await Promise.all(Array.from(this.clients).map((i=>i.finished)))}}
+//# sourceMappingURL=animate-controller.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit-labs/motion/animate.js
+let animate_h=0;const animate_r=new Map,animate_n=new WeakSet,animate_a=()=>new Promise((t=>requestAnimationFrame(t))),animate_l=[{transform:"translateY(100%) scale(0)",opacity:0}],animate_c=[{transform:"translateY(-100%) scale(0)",opacity:0}],animate_d=[{transform:"translateX(-100%) scale(0)",opacity:0}],animate_u=[{transform:"translateX(100%) scale(0)",opacity:0}],animate_v=[{}],animate_f=[{opacity:0}],animate_m=(/* unused pure expression or super */ null && (animate_f)),animate_p=[{opacity:0},{opacity:1}],animate_y=[{opacity:0},{opacity:.25,offset:.75},{opacity:1}],animate_g=(t,i)=>{const s=t-i;return 0===s?void 0:s},animate_w=(t,i)=>{const s=t/i;return 1===s?void 0:s},animate_A={left:(t,i)=>{const s=animate_g(t,i);return{value:s,transform:s&&`translateX(${s}px)`}},top:(t,i)=>{const s=animate_g(t,i);return{value:s,transform:s&&`translateY(${s}px)`}},width:(t,i)=>{const s=animate_w(t,i);return{value:s,transform:s&&`scaleX(${s})`}},height:(t,i)=>{const s=animate_w(t,i);return{value:s,transform:s&&`scaleY(${s})`}}},animate_b={duration:333,easing:"ease-in-out"},j=["left","top","width","height","opacity","color","background"],animate_x=new WeakMap;class animate_S extends async_directive_d{constructor(t){if(super(t),this.t=null,this.i=null,this.o=!0,this.shouldLog=!1,t.type===directive_t.CHILD)throw Error("The `animate` directive must be used in attribute position.");this.createFinished()}createFinished(){var t;null===(t=this.resolveFinished)||void 0===t||t.call(this),this.finished=new Promise((t=>{this.h=t}))}async resolveFinished(){var t;null===(t=this.h)||void 0===t||t.call(this),this.h=void 0}render(i){return w}getController(){return animate_controller_i.get(this.l)}isDisabled(){var t;return this.options.disabled||(null===(t=this.getController())||void 0===t?void 0:t.disabled)}update(t,[i]){var s;const e=void 0===this.l;return e&&(this.l=null===(s=t.options)||void 0===s?void 0:s.host,this.l.addController(this),this.element=t.element,animate_x.set(this.element,this)),this.optionsOrCallback=i,(e||"function"!=typeof i)&&this.u(i),this.render(i)}u(t){var i,s;t=null!=t?t:{};const e=this.getController();void 0!==e&&((t={...e.defaultOptions,...t}).keyframeOptions={...e.defaultOptions.keyframeOptions,...t.keyframeOptions}),null!==(i=(s=t).properties)&&void 0!==i||(s.properties=j),this.options=t}v(){const t={},i=this.element.getBoundingClientRect(),s=getComputedStyle(this.element);return this.options.properties.forEach((e=>{var o;const h=null!==(o=i[e])&&void 0!==o?o:animate_A[e]?void 0:s[e],r=Number(h);t[e]=isNaN(r)?h+"":r})),t}p(){let t,i=!0;return this.options.guard&&(t=this.options.guard(),i=((t,i)=>{if(Array.isArray(t)){if(Array.isArray(i)&&i.length===t.length&&t.every(((t,s)=>t===i[s])))return!1}else if(i===t)return!1;return!0})(t,this.m)),this.o=this.l.hasUpdated&&!this.isDisabled()&&!this.isAnimating()&&i&&this.element.isConnected,this.o&&(this.m=Array.isArray(t)?Array.from(t):t),this.o}hostUpdate(){var t;"function"==typeof this.optionsOrCallback&&this.u(this.optionsOrCallback()),this.p()&&(this.g=this.v(),this.t=null!==(t=this.t)&&void 0!==t?t:this.element.parentNode,this.i=this.element.nextSibling)}async hostUpdated(){if(!this.o||!this.element.isConnected||this.options.skipInitial&&!this.isHostRendered)return;let t;this.prepare(),await animate_a;const i=this.A(),s=this._(this.options.keyframeOptions,i),e=this.v();if(void 0!==this.g){const{from:s,to:o}=this.j(this.g,e,i);this.log("measured",[this.g,e,s,o]),t=this.calculateKeyframes(s,o)}else{const s=animate_r.get(this.options.inId);if(s){animate_r.delete(this.options.inId);const{from:o,to:n}=this.j(s,e,i);t=this.calculateKeyframes(o,n),t=this.options.in?[{...this.options.in[0],...t[0]},...this.options.in.slice(1),t[1]]:t,animate_h++,t.forEach((t=>t.zIndex=animate_h))}else this.options.in&&(t=[...this.options.in,{}])}this.animate(t,s)}resetStyles(){var t;void 0!==this.S&&(this.element.setAttribute("style",null!==(t=this.S)&&void 0!==t?t:""),this.S=void 0)}commitStyles(){var t,i;this.S=this.element.getAttribute("style"),null===(t=this.webAnimation)||void 0===t||t.commitStyles(),null===(i=this.webAnimation)||void 0===i||i.cancel()}reconnected(){}async disconnected(){var t;if(!this.o)return;if(void 0!==this.options.id&&animate_r.set(this.options.id,this.g),void 0===this.options.out)return;if(this.prepare(),await animate_a(),null===(t=this.t)||void 0===t?void 0:t.isConnected){const t=this.i&&this.i.parentNode===this.t?this.i:null;if(this.t.insertBefore(this.element,t),this.options.stabilizeOut){const t=this.v();this.log("stabilizing out");const i=this.g.left-t.left,s=this.g.top-t.top;!("static"===getComputedStyle(this.element).position)||0===i&&0===s||(this.element.style.position="relative"),0!==i&&(this.element.style.left=i+"px"),0!==s&&(this.element.style.top=s+"px")}}const i=this._(this.options.keyframeOptions);await this.animate(this.options.out,i),this.element.remove()}prepare(){this.createFinished()}start(){var t,i;null===(i=(t=this.options).onStart)||void 0===i||i.call(t,this)}didFinish(t){var i,s;t&&(null===(s=(i=this.options).onComplete)||void 0===s||s.call(i,this)),this.g=void 0,this.animatingProperties=void 0,this.frames=void 0,this.resolveFinished()}A(){const t=[];for(let i=this.element.parentNode;i;i=null==i?void 0:i.parentNode){const s=animate_x.get(i);s&&!s.isDisabled()&&s&&t.push(s)}return t}get isHostRendered(){const t=animate_n.has(this.l);return t||this.l.updateComplete.then((()=>{animate_n.add(this.l)})),t}_(t,i=this.A()){const s={...animate_b};return i.forEach((t=>Object.assign(s,t.options.keyframeOptions))),Object.assign(s,t),s}j(t,i,s){t={...t},i={...i};const e=s.map((t=>t.animatingProperties)).filter((t=>void 0!==t));let o=1,h=1;return void 0!==e&&(e.forEach((t=>{t.width&&(o/=t.width),t.height&&(h/=t.height)})),void 0!==t.left&&void 0!==i.left&&(t.left=o*t.left,i.left=o*i.left),void 0!==t.top&&void 0!==i.top&&(t.top=h*t.top,i.top=h*i.top)),{from:t,to:i}}calculateKeyframes(t,i,s=!1){var e;const o={},h={};let r=!1;const n={};for(const s in i){const a=t[s],l=i[s];if(s in animate_A){const t=animate_A[s];if(void 0===a||void 0===l)continue;const i=t(a,l);void 0!==i.transform&&(n[s]=i.value,r=!0,o.transform=`${null!==(e=o.transform)&&void 0!==e?e:""} ${i.transform}`)}else a!==l&&void 0!==a&&void 0!==l&&(r=!0,o[s]=a,h[s]=l)}return o.transformOrigin=h.transformOrigin=s?"center center":"top left",this.animatingProperties=n,r?[o,h]:void 0}async animate(t,i=this.options.keyframeOptions){this.start(),this.frames=t;let s=!1;if(!this.isAnimating()&&!this.isDisabled()&&(this.options.onFrames&&(this.frames=t=this.options.onFrames(this),this.log("modified frames",t)),void 0!==t)){this.log("animate",[t,i]),s=!0,this.webAnimation=this.element.animate(t,i);const e=this.getController();null==e||e.add(this);try{await this.webAnimation.finished}catch(t){}null==e||e.remove(this)}return this.didFinish(s),s}isAnimating(){var t,i;return"running"===(null===(t=this.webAnimation)||void 0===t?void 0:t.playState)||(null===(i=this.webAnimation)||void 0===i?void 0:i.pending)}log(t,i){this.shouldLog&&!this.isDisabled()&&console.log(t,this.options.id,i)}}const animate_$=directive_e(animate_S);
+//# sourceMappingURL=animate.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit-labs/motion/position.js
+const position_r=["top","right","bottom","left"];class position_e extends async_directive_d{constructor(t){if(super(t),t.type!==directive_t.ELEMENT)throw Error("The `position` directive must be used in attribute position.")}render(i,o){return w}update(t,[i,o]){var s;return void 0===this.l&&(this.l=null===(s=t.options)||void 0===s?void 0:s.host,this.l.addController(this)),this.$=t.element,this.k=i,this.F=null!=o?o:["left","top","width","height"],this.render(i,o)}hostUpdated(){this.O()}O(){var t,i;const o="function"==typeof this.k?this.k():null===(t=this.k)||void 0===t?void 0:t.value,s=o.offsetParent;if(void 0===o||!s)return;const e=o.getBoundingClientRect(),h=s.getBoundingClientRect();null===(i=this.F)||void 0===i||i.forEach((t=>{const i=position_r.includes(t)?e[t]-h[t]:e[t];this.$.style[t]=i+"px"}))}}const position_h=directive_e(position_e);
+//# sourceMappingURL=position.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit-labs/motion/index.js
+
+//# sourceMappingURL=index.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit-html/directives/style-map.js
+
+/**
+ * @license
+ * Copyright 2018 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */const style_map_i=directive_e(class extends directive_i{constructor(t){var e;if(super(t),t.type!==directive_t.ATTRIBUTE||"style"!==t.name||(null===(e=t.strings)||void 0===e?void 0:e.length)>2)throw Error("The `styleMap` directive must be used in the `style` attribute and must be the only part in the attribute.")}render(t){return Object.keys(t).reduce(((e,r)=>{const s=t[r];return null==s?e:e+`${r=r.replace(/(?:^(webkit|moz|ms|o)|)(?=[A-Z])/g,"-$&").toLowerCase()}:${s};`}),"")}update(e,[r]){const{style:s}=e.element;if(void 0===this.ct){this.ct=new Set;for(const t in r)this.ct.add(t);return this.render(r)}this.ct.forEach((t=>{null==r[t]&&(this.ct.delete(t),t.includes("-")?s.removeProperty(t):s[t]="")}));for(const t in r){const e=r[t];null!=e&&(this.ct.add(t),t.includes("-")?s.setProperty(t,e):s[t]=e)}return b}});
+//# sourceMappingURL=style-map.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit/directives/style-map.js
+
+//# sourceMappingURL=style-map.js.map
+
+;// CONCATENATED MODULE: ./js/styles.js
+/* playground-fold */
 
 
-class Input extends lit__WEBPACK_IMPORTED_MODULE_0__/* .LitElement */ .oi {
-  static get properties() {
-    return {
-      type: { type: String },
-      placeholder: { type: String },
-      controlName: { type: String },
-    };
+const styles = r`
+  :host {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    /* Defaults */
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    background: gainsboro;
+    cursor: pointer;
   }
+
+  .fit {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .selected {
+    top: -100%;
+  }
+
+  ::slotted(*) {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bar {
+    position: absolute;
+    bottom: 8px;
+    width: calc(100% - 16px);
+    left: 8px;
+    height: 8px;
+    background: rgba(200, 200, 200, 0.5);
+    border-radius: 8px;
+    pointer-events: none;
+  }
+
+  .indicator {
+    position: relative;
+    /* display: inline-block; */
+    height: 100%;
+    width: 8px;
+    border-radius: 8px;
+    background: #eee;
+  }`;
+/* playground-fold-end */
+
+;// CONCATENATED MODULE: ./js/motion-carousel.js
+/* playground-fold */
+
+
+
+
+
+class MotionCarousel extends lit_element_s {
+  static properties = {
+    selected: { type: Number },
+  };
+  static styles = styles;
+
+  constructor() {
+    super();
+    this.selected = 0;
+  }
+
+  get selectedSlot() {
+    return (this.__selectedSlot ??=
+      this.renderRoot?.querySelector('slot[name="selected"]') ?? null);
+  }
+
+  get previousSlot() {
+    return (this.__previousSlot ??=
+      this.renderRoot?.querySelector('slot[name="previous"]') ?? null);
+  }
+
+  left = 0;
+  selectedInternal = 0;
+
+  get maxSelected() {
+    return this.childElementCount - 1;
+  }
+
+  hasValidSelected() {
+    return this.selected >= 0 && this.selected <= this.maxSelected;
+  }
+
   render() {
-    return lit__WEBPACK_IMPORTED_MODULE_0__/* .html */ .dy`
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@1.3.0/dist/yalo.min.css" />
-      <div class="yc-input">
-          <input
-            type=${this.type}
-            id=${this.controlName}
-            placeholder=${this.placeholder}
-            controlName=${this.controlName}
-            @input=${this._inputChange}
-          />
-          <label for=${this.controlName}>${this.placeholder}</label>
+    const p = this.selectedInternal;
+    const s = (this.selectedInternal = this.hasValidSelected()
+      ? this.selected
+      : this.selectedInternal);
+    const shouldMove = this.hasUpdated && s !== p;
+    const atStart = p === 0;
+    const toStart = s === 0;
+    const atEnd = p === this.maxSelected;
+    const toEnd = s == this.maxSelected;
+    const shouldAdvance =
+      shouldMove && (atEnd ? toStart : atStart ? !toEnd : s > p);
+    const delta = (shouldMove ? Number(shouldAdvance) || -1 : 0) * 100;
+    this.left -= delta;
+    const animateLeft = `${this.left}%`;
+    const selectedLeft = `${-this.left}%`;
+    const previousLeft = `${-this.left - delta}%`;
+    const w = 100 / this.childElementCount;
+    const indicatorLeft = `${w * s}%`;
+    const indicatorWidth = `${w}%`;
+    return $`
+      <div
+        class="fit"
+        ${animate_$()}
+        @click=${this.clickHandler}
+        style=${style_map_i({ left: animateLeft })}
+      >
+        <div
+          class="fit"
+          style=${shouldMove ? style_map_i({ left: previousLeft }) : b}
+        >
+          <slot name="previous"></slot>
+        </div>
+        <div
+          class="fit selected"
+          style=${shouldMove ? style_map_i({ left: selectedLeft }) : b}
+        >
+          <slot name="selected"></slot>
+        </div>
+      </div>
+      <div class="bar">
+        <div
+          class="indicator"
+          ${animate_$()}
+          style=${style_map_i({
+            left: indicatorLeft,
+            width: indicatorWidth,
+          })}
+        ></div>
       </div>
     `;
   }
 
-  _inputChange(event) {
-    const value = event.target.value.trim();
-    if (value) {
-      this.dispatchEvent(
-        new CustomEvent("onInputChange", {
-          detail: { controlName: this.controlName, value },
-          bubbles: true,
-          composed: true,
-        })
-      );
+  previous = -1;
+  async updated(changedProperties) {
+    if (
+      (changedProperties.has("selected") || this.previous === -1) &&
+      this.hasValidSelected()
+    ) {
+      this.updateSlots();
+      this.previous = this.selected;
     }
   }
-}
 
-window.customElements.define("wc-input", Input);
-
-})();
-
-// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
-(() => {
-var __webpack_exports__ = {};
-/* unused harmony export WcHello */
-/* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(897);
-
-
-class WcHello extends lit__WEBPACK_IMPORTED_MODULE_0__/* .LitElement */ .oi {
-  static get styles() {
-    return lit__WEBPACK_IMPORTED_MODULE_0__/* .css */ .iv`
-      :host {
-        display: block;
-        padding: 25px;
-        color: var(--yc-body-color, #000);
-      }
-    `;
+  updateSlots() {
+    // unset old slot state
+    this.selectedSlot.assignedElements()[0]?.removeAttribute("slot");
+    this.previousSlot.assignedElements()[0]?.removeAttribute("slot");
+    // set slots
+    this.children[this.previous]?.setAttribute("slot", "previous");
+    this.children[this.selected]?.setAttribute("slot", "selected");
   }
 
-  static get properties() {
-    return {
-      title: { type: String },
-      counter: { type: Number },
-    };
-  }
-
-  constructor() {
-    super();
-    this.title = 'Hey there';
-    this.counter = 5;
-  }
-
-  __increment() {
-    this.counter += 1;
-  }
-
-  render() {
-    return lit__WEBPACK_IMPORTED_MODULE_0__/* .html */ .dy`
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wc-hello@1.3.0/dist/yalo.min.css" />
-      <h2>${this.title} Nr. ${this.counter}!</h2>
-      <button class="yc-btn yc-btn-primary" @click=${this.__increment}>increment</button>
-    `;
+  clickHandler(e) {
+    const i = this.selected + (Number(!e.shiftKey) || -1);
+    this.selected = i > this.maxSelected ? 0 : i < 0 ? this.maxSelected : i;
+    const change = new CustomEvent("change", {
+      detail: this.selected,
+      bubbles: true,
+      composed: true,
+    });
+    this.dispatchEvent(change);
   }
 }
-
-window.customElements.define('wc-hello', WcHello);
+customElements.define("motion-carousel", MotionCarousel);
+/* playground-fold-end */
 
 })();
 

@@ -18,7 +18,23 @@ npm i wc-hello
 <wc-hello></wc-hello>
 ```
 
-
+## Publish
+Generate bundle files
+```bash
+ npx webpack
+```
+Sign in with your npm account
+```bash
+ npm login
+```
+Release a version depending on breaking changes
+```bash
+ npm version patch|minor|major
+```
+Publish
+```bash
+ npm publish
+```
 
 ## Tooling configs
 

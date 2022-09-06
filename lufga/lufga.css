@@ -1,54 +1,54 @@
 @font-face {
-    font-family: "Lufga";
+    font-family: "Regular";
     font-weight: normal;
     font-display: swap;
     font-style: normal;
     src: url("Lufga-Regular.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Thin";
     font-weight: 100;
     font-style: normal;
     src: url("Lufga-Thin.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "ExtraLight";
     font-weight: 200;
     font-style: normal;
     src: url("Lufga-ExtraLight.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Light";
     font-weight: 300;
     font-style: normal;
     src: url("Lufga-Light.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Medium";
     font-weight: 500;
     font-style: normal;
     src: url("Lufga-Medium.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Semibold";
     font-weight: 600;
     font-style: normal;
     src: url("Lufga-SemiBold.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Bold";
     font-weight: bold;
     font-style: normal;
     src: url("Lufga-Bold.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "ExtraBold";
     font-weight: 800;
     font-style: normal;
     src: url("Lufga-ExtraBold.woff2") format("woff2");
 }
 @font-face {
-    font-family: "Lufga";
+    font-family: "Black";
     font-weight: 900;
     font-style: normal;
     src: url("Lufga-Black.woff2") format("woff2");

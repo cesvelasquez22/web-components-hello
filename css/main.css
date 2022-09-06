@@ -1,25 +1,42 @@
-@import '../lufga/lufga.css';
-/* Colores */
-:root {
-  --white: #ffffff;
-  --blue-300: #52bae1;
-  --blue-500: #00a0da;
-  --blue800: #006fa6;
-  --blueDark600: #42677e;
-  --blueDark900: #142c3b;
-  --gray200: #e2e2e2;
-  --gray-400: #808080;
-  --gray600: #545454;
-  --gray-900: #141414;
-  --error: #ff4a4a;
+@import "../lufga/lufga.css";
 
-  --yc-font: Lufga;
+:root {
+  --blue800: #006fa6;
+  --blue500: #00a0da;
+  --blue300: #52bae1;
+  --blue50: #e3f6ff;
+
+  --blueDark900: #142c3b;
+  --blueDark600: #42677e;
+  --blueDark50: #e2effc;
+
+  --error: #ff4a4a;
+  --errorLight: #ffebee;
+
+  --info: #3f77eb;
+  --infoLight: #245279;
+
+  --success: #09cf71;
+  --successLight: #e4f8eb;
+
+  --warning: #f6d318;
+  --warningLight: #fcf8c0;
+
+  --gray900: #141414;
+  --gray600: #545454;
+  --gray400: #808080;
+  --gray200: #e2e2e2;
+  --gray50: #f6f6f6;
+
+  --white: #fff;
+
+  --yc-font: Regular;
   --yc-body-font-family: var(--yc-font);
-  --yc-body-font-size: 1rem;
-  --yc-body-font-weight: 400;
+  --yc-body-font-size: 0.825rem;
+  --yc-body-font-weight: normal;
   --yc-body-line-height: 1.5;
-  --yc-body-color: #212529;
-  --yc-body-bg: #fff;
+  --yc-body-color: var(--gray900);
+  --yc-body-bg: var(--white);
 }
 
 *,
@@ -41,8 +58,179 @@ body {
   font-weight: var(--yc-body-font-weight);
   line-height: var(--yc-body-line-height);
   color: var(--yc-body-color);
-  text-align: var(--yc-body-text-align);
   background-color: var(--yc-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Textos Headline */
+
+.headline-xxl {
+  font-family: Medium;
+  font-size: 56px;
+  letter-spacing: 0px;
+  line-height: 64px;
+}
+
+.headline-xl {
+  font-family: Medium;
+  font-size: 48px;
+  letter-spacing: 0px;
+  line-height: 56px;
+}
+
+.headline-large {
+  font-family: Medium;
+  font-size: 36px;
+  letter-spacing: 0px;
+  line-height: 40px;
+}
+
+.headline-medium {
+  font-family: Medium;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.headline-small {
+  font-family: Medium;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+}
+
+.headline-x-small {
+  font-family: Medium;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+
+.headline-tiny {
+  font-family: Medium;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+
+/* Textos Subtitle */
+
+.subtitle-large {
+  font-family: Bold;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.subtitle-medium {
+  font-family: Bold;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.subtitle-small {
+  font-family: Bold;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+}
+
+/* Textos Overline */
+
+.overline-small {
+  font-family: Bold;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+
+/* Textos Body */
+
+.body-large {
+  font-family: Regular;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.body-medium {
+  font-family: Regular;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.body-small {
+  font-family: Regular;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.body-x-small {
+  font-family: Regular;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+}
+
+/* Textos Button */
+
+.button-bold {
+  font-family: Bold;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.button-medium {
+  font-family: Medium;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.button-default-text {
+  font-family: Medium;
+  font-size: 16px;
+  margin: 0px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+/* Textos Body Link */
+
+.bodylink-large {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.bodylink-medium {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.bodylink-small {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.bodylink-x-small {
+  font-family: Regular;
+  text-decoration: underline;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 16px;
 }
