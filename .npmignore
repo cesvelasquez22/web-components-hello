@@ -1,5 +1,6 @@
 # Files to ignore to publish
 /demo/
+/lufga/
 webpack.config.js
 web-dev-server.config.mjs
 custom-elements.json

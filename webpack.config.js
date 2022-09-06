@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
-  entry: ["./js/input.js", "./js/wc-hello.js", "./css/main.css"],
+  entry: ["./js/motion-carousel.js", "./css/main.css"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "yalo.bundle.js",
